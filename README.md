@@ -2,7 +2,8 @@
 Task 2 implementation
 
 Prerequisites:
-What should to be installed ?
+
+What should to be installed before start of this task ?
 
 Python 3.7.4 should be installed prior running this app.
 
