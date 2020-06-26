@@ -6,6 +6,8 @@ Prerequisites:
 What should to be installed before start of this task ?
 
 Python 3.7.4 should be installed prior running this app.
+https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe
+
 
 Set PYTHONPATH to environment variables.
 
