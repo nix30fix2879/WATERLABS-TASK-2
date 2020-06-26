@@ -2,10 +2,6 @@
 Task 2 implementation
 
 Prerequisites:
-
-Note: minimize all the running windows to avoid control transfer from mspaint 
-applications , clear the desktop, and leave the mouse cursor on desktop by just a click
-
 What should to be installed ?
 
 Python 3.7.4 should be installed prior running this app.
@@ -26,4 +22,4 @@ Launch cmd.exe and run the below commands.
 
 How to run this automation script.
 1. launch cmd.exe and run below command
-	>python task2.py
+2. >python task2.py	
