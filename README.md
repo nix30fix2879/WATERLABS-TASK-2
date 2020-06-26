@@ -22,5 +22,5 @@ Launch cmd.exe and run the below commands.
 3. pip install pyautogui
 
 How to run this automation script.
-1. launch cmd.exe and navigate to py file, run below command.
-2. >python task2.py	
+1. launch cmd.exe and navigate to task2.py file, run below command.
+2. python task2.py	
