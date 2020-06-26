@@ -20,8 +20,8 @@ class Circle:
 
     # launch windows application (mspaint)
     def launchWindowsApp(self):
-        # sleep 5 seconds pyautogui
-        time.sleep(5)
+        # sleep 10 seconds for pyautogui setup
+        time.sleep(10)
         # Run windows paint  application
         self.app = Application().start(windowsapp)
         # click to transfer focus on mspaint application
