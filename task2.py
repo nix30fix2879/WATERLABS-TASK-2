@@ -1,8 +1,8 @@
 # -----------------------------------------------------------
-# demonstrates how to draw a circle using
+# Demonstrates how to draw a circle using
 # pyautogui,pywinauto in microsoft windows mspaint application
 #
-# email saxena.k989@gmail.com
+# Email saxena.k989@gmail.com
 # -----------------------------------------------------------
 
 import math
@@ -14,6 +14,8 @@ import pyautogui
 from pywinauto.application import Application
 
 windowsapp = 'mspaint.exe'
+pyautogui_wait_time = 5
+task_wait = 2
 
 
 class Circle:
@@ -21,9 +23,9 @@ class Circle:
     # launch windows application (mspaint)
     def launchWindowsApp(self):
         # sleep 10 seconds for pyautogui setup
-        time.sleep(10)
+        time.sleep(pyautogui_wait_time)
         # Run windows paint  application
-        self.app = Application().start(windowsapp)
+        self.app = Application().start(windowsapp).top_window()
         # click to transfer focus on mspaint application
         pyautogui.click()
 
@@ -46,7 +48,7 @@ class Circle:
     # terminate mspaint application process
     def terminateApp(self):
         # wait for 2 seconds - let the drawing process gets completed
-        time.sleep(2)
+        time.sleep(task_wait)
         for proc in psutil.process_iter():
             if proc.name() == windowsapp:
                 proc.kill()
